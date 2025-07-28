@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.container {
+    @apply top-0 left-0 min-w-full max-w-full bg-sky-500;
+}
+
+.container-navbar {
+    @apply px-2;
+}
+
+.ul-navbar {
+    @apply flex gap-5;
+}
+
+.li-navbar {
+    @apply rounded px-3 py-2 hover: bg-blue-800;
+    text-decoration: underline;
+}

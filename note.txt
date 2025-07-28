@@ -1,0 +1,15 @@
+HTML = adalah bahasa markup yaitu bahasa yang digunakan untuk membuat webpage / halaamn web dengan gaya tag yang digunakan untuk mendefinisikan sebuah komponen
+
+catatan
+diharapkan clean code , termasuk mematuhi kaidah identasi
+
+tag <html></html> itu wajib tetapi <DOCTYPE> nya merupakan standarisasi</DOCTYPE> HTML 5 , kalau versi sebelumnya seperti versi 4 tidak perlu
+html tag component memiliki atribut komponen yang dapat di isi parameternya
+
+alt atribut dalam img itu adalah alternatif text kalau gambar linknya tidak eksis
+
+
+yang terjadi jika close tag tidak dilakukan adalah kalau kita mendefinisikan komponen baru , maka akan dianggap satu komponen dengan komponen di atasnya yang tidak tertutup tagnya
+(diagregasikan)
+
+html itu Not case sensitive , artinya tag bisa di ketik dengan gaya kapital ataupun lower_case

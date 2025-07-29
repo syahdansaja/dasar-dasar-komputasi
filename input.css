@@ -1,6 +1,15 @@
 @import "tailwindcss";
+html {
+    margin: 0;
+    padding: 0;
+}
 .container {
-    @apply top-0 left-0 min-w-full max-w-full bg-sky-500 py-1 px-2;
+    background-color: rgb(105, 153, 255);
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @apply py-1 px-8;
 }
 
 .container-navbar {
@@ -16,5 +25,40 @@
 }
 
 .li-navbar:hover {
-    @apply bg-sky-800 text-white;
+    @apply bg-sky-800 text-white rounded-xl;
+    transition:  .2s ease-in-out;
+    transition-delay: .2s;
+}
+
+.container-footer {
+    @apply bottom-0 py-2 px-6 bg-gray-700 text-white;
+}
+
+.a-navbar {
+    color: white;
+    font-weight: 500;
+}
+
+body {
+    @apply h-screen w-screen overflow-x-hidden;
+}
+
+.a-content {
+    /* flex-direction: column;
+    box-shadow:  27px 32px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 27px 32px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:  27px 32px 5px 0px rgba(0, 0, 0, 0.75); */
+    @apply text-shadow-xl text-shadow-gray-500;
+}
+
+.container-content {
+    @apply bg-sky-100 w-full h-full flex items-center justify-center;
+}
+
+#konten {
+    @apply text-4xl font-extrabold;
+}
+
+#footer-text {
+    @apply text-xl font-bold text-indigo-200;
 }

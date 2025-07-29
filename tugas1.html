@@ -1,44 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Pribadi - Syahdan - A11.2025.16350</title>
-    <link rel="stylesheet" href="output.css">
-</head>
+    <link rel="stylesheet" href="output.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!-- Navigation Bar -->
-        <div class="container-navbar">
-            <ul class="ul-navbar">
-                <li class="li-navbar">
-                    <a href="#" class="a-navbar">Home</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="#" class="a-navbar">About Me</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="#" class="a-navbar">Contact Me</a>
-                </li>
-            </ul>
-        </div>
+      <h1 class="text-2xl font-bold text-white">Navbar</h1>
+      <!-- Navigation Bar -->
+      <div class="container-navbar">
+        <ul class="ul-navbar">
+          <li class="li-navbar">
+            <a href="#" class="a-navbar">Home</a>
+          </li>
+          <li class="li-navbar">
+            <a href="#" class="a-navbar">About Me</a>
+          </li>
+          <li class="li-navbar">
+            <a href="#" class="a-navbar">Contact Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- End Of Navbar  -->
     <div class="container-content">
-        <a href="https://youtube.com" class="a-content">
-            <img src="Youtube_logo.png" class="img-content" alt="">
-            <p>Mampir Yuk Dek .. 🤫🤫</p>
-        </a>
+        <div class="py-32 px-64 shadow-2xl shadow-gray-500 rounded-2xl bg-amber-100">
+            <img src="" class="z-0" alt="">
+            <a href="https://youtu.be/IxX_QHay02M?si=iNqoerqcywPvh0Er" class="a-content z-10">
+                <img src="Youtube_logo.png" class="img-content" alt="" />
+                <p id="konten">OIA CAT 😺😾😾</p>
+            </a>
+        </div>
     </div>
     <!-- Content 1 End -->
     <!-- Footer -->
     <div class="container-footer">
-        <h1 class="h1-footer">Website ini dibuat oleh saia</h1>
-        <span style="font-size: 30px;">🤑🤑👻</span>
+      <span class="flex justify-between w-full">
+        <span>
+            <h1 class="h1-footer">Website ini dibuat oleh saia, dengan</h1>
+            <a href="https://tailwindcss.com" class="text-white flex" style="text-decoration: none;">
+                <span>tailwindcss</span>
+                <img src="./assets/pictures/tailwindcss-mark.d52e9897.svg" class="max-w-[30px] ml-2" alt="tailwindcss logo">
+            </a>
+        </span>
+        <h1 id="footer-text">
+          Ini adalah bagian footer
+        </h1>
+      </span>
+      <span class="flex justify-between">
+        <span style="font-size: 30px">🤑🤑👻</span>
+      </span>
     </div>
     <!-- Footer End -->
-</body>
-
+  </body>
 </html>

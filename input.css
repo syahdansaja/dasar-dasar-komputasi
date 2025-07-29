@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .container {
-    @apply top-0 left-0 min-w-full max-w-full bg-sky-500;
+    @apply top-0 left-0 min-w-full max-w-full bg-sky-500 py-1 px-2;
 }
 
 .container-navbar {
@@ -12,6 +12,9 @@
 }
 
 .li-navbar {
-    @apply rounded px-3 py-2 hover: bg-blue-800;
-    text-decoration: underline;
+    @apply rounded px-3 py-2;
+}
+
+.li-navbar:hover {
+    @apply bg-sky-800 text-white;
 }

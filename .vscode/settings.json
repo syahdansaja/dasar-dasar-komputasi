@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5500
+    "liveServer.settings.port": 5500,
+    "files.autoSave": "onWindowChange",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
 }
